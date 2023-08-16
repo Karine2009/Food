@@ -4,7 +4,8 @@
   "description": "food project which made by group 1",
   "main": "index.js",
   "scripts": {
-    "serve":"json-server --watch db.json --port 8888"
+    "serve": "json-server --watch db.json --port 8888",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/Karine2009/Food#readme",
   "dependencies": {
     "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
